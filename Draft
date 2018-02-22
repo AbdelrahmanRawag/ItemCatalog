@@ -1,0 +1,24 @@
+Routes
+
+Setp One Write the routes .
+Get
+@ Categories and Items
+
+Get
+@ Category with it's items
+
+Get
+@ Item Detail (Read)
+
+Get And Post
+@ Create item (Create)
+
+Get And Post
+@ Edit item (Update)
+
+Get And Post
+@ Delete item (Delete)
+
+
+
+Step Two Add Some data .

@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+	<div class="row divider green">
+		<div class="col-md-12"></div>
+	</div>
+	<div class="row banner menu">
+		<div class="col-md-11 col-md-offset-1 padding-none">
+			<h1>{{ item.name }}</h1>
+			<br>
+			<p>{{item.description}}</p>
+				<a href="{{url_for('DeleteCategoryItem',categoryitem_id=item.id)}}">Delete Item</a>
+				<a href="{{url_for('EditCategoryItem',categoryitem_id=item.id)}}">Edit Item</a>
+		</div>
+	</div>
+
+	<!--{% if items  %}-->
+	<!--{% endif %}-->
+{% endblock %}
